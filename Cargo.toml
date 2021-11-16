@@ -9,4 +9,8 @@ edition = "2018"
 [profile.dev]
 target-cpu = "native"
 
+[profile.release]
+target-cpu = "native"
+opt-level = 3
+
 [dependencies]
